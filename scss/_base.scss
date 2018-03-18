@@ -1,0 +1,66 @@
+@import 'modules/variables';
+
+body {
+  background: $bg__primary;
+  font-family: $font__primary;
+  font-size: $font-size__primary;
+  color: $color__secondary--lighten;
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font__primary;
+  font-weight: 600;
+  color: $color__primary;
+}
+
+h2 {
+  font-size: 1.7em;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+small {
+  font-size: 1em;
+}
+
+.no-gutter {
+  padding: 0;
+  margin: 0;
+}
+
+.badge {
+  width: 23px;
+  height: 23px;
+  line-height: 1.15em;
+  background: $color__red;
+  border-radius: 50%;
+  font-size: 100%;
+  font-weight: 300;
+}
+
+.tooltip-inner {
+  width: 100%;
+  border: 1px solid $border__color;
+  border-left: 8px solid $color__red;
+  color: $color__secondary;
+  background: $color__white;
+  font-weight: 300;
+  font-size: .85em;
+  z-index: 999;
+  padding: .6em 1em;
+  opacity: 1 !important;
+  height: 58px;
+}
+
+.tooltip .arrow:before {
+  margin-left: 80px;
+  border-top-color: $color__red!important;
+}

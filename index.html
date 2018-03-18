@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="This is a frontend test from xello">
+  <meta name="author" content="Manpreet Sandhu">
+  <title>Xello Frontend Test</title>
+  <!-- Reset CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <!-- Header Start -->
+    <header>
+      <!-- Top header -->
+      <div class="head">
+        <div class="row">
+          <div class="col-md-12 col-lg-8">
+            <div class="head__logo d-flex">
+              <h2>High-School Diploma 2017</h2>
+              <div class="head__credits p-2">
+                <span class="badge badge-primary">14</span> Credits Left!
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-4">
+            <div class="progress-row">
+              <div class="d-flex justify-content-start">
+                <div class="ml-auto">
+                  <div class="progress float-left">
+                    <div class="progress-bar--highlight"></div>
+                  </div>
+                  <div class="progress__text float-right">
+                    <span class="progress__numbers">14</span> / 30
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Top header end -->
+      <!-- Navigation section -->
+      <nav class="navbar justify-content-start">
+        <span class="text">Requirements</span>
+        <div class="dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Show All
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">One More Action</a>
+          </div>
+        </div>
+        <div class="checkbox-section">
+          <div class="form-check form-check-inline">
+            <span class="text">Credits</span>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="1">
+            <label class="form-check-label">All</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="2">
+            <label class="form-check-label">Earned</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="3">
+            <label class="form-check-label">Planned</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="3">
+            <label class="form-check-label">Remaining</label>
+          </div>
+        </div>
+      </nav>
+      <!-- Navigation section end -->
+    </header>
+    <!--  Header End -->
+    <main>
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <div class="card is-active">
+            <div class="card_header ">
+              <h3>YEAR 9 (next year)</h3>
+              <small class="text-muted">1 credits earned</small>
+            </div>
+            <ul class="list-group">
+              <!-- Green border list item -->
+              <li class="list-group-item list-group-item--isGreen">
+                <div class="row subject">
+                  <div class="col-12 d-flex justify-content-between">
+                    <div class="subject__name">
+                      English
+                    </div>
+                    <div class="subject__notification">
+                    </div>
+                  </div>
+                </div>
+                <div class="row credentials">
+                  <div class="col-12 d-flex justify-content-between">
+                    <div class="credentials__info">
+                      <div class="credentials__id float-left">
+                        ENG1P1
+                      </div>
+                      <div class="credentials__name float-right">
+                        English 9
+                      </div>
+                    </div>
+                    <div class="credentials__credits">
+                      1 cr
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <!-- Green border list item  end-->
+              <li class="list-group-item list-group-item--isGreen" data-toggle="tooltip" data-placement="top" data-html="true" title="
+                    <div>This course requires a Pre-Requisite</div>
+                    <a href='#'>Add one</a>">
+                <div class="row subject">
+                  <div class="col-12 d-flex justify-content-between">
+                    <div class="subject__name">
+                      Functions
+                    </div>
+                    <div class="subject__notification">
+                      <span class="badge badge-primary">
+                        !
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="row credentials">
+                  <div class="col-12 d-flex justify-content-between">
+                    <div class="credentials__info">
+                      <div class="credentials__id float-left">
+                        MAT1U1
+                      </div>
+                      <div class="credentials__name float-right">
+                        Math 9
+                      </div>
+                    </div>
+                    <div class="credentials__credits">
+                      1 cr
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <!-- Blue border list item -->
+              <li class="list-group-item list-group-item--isBlue">
+                <div class="row no-gutter">
+                  <div class="col-2 no-gutter left-icon-section">
+                    <span>+</span>
+                  </div>
+                  <div class="col-10 no-gutter right-info-section">
+                    <div class="add-subject">
+                      Add Science 9
+                    </div>
+                    <span>1 cr.</span>
+                  </div>
+                </div>
+              </li>
+              <!-- Green border list end -->
+              <li class="list-group-item list-group-item--isBlue">
+                <div class="row no-gutter">
+                  <div class="col-2 no-gutter left-icon-section">
+                    <span>+</span>
+                  </div>
+                  <div class="col-10 no-gutter right-info-section">
+                    <div class="add-subject">
+                      Add Geography
+                    </div>
+                    <span>1 cr.</span>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item list-group-item--isBlue">
+                <div class="row no-gutter">
+                  <div class="col-2 no-gutter left-icon-section">
+                    <span>+</span>
+                  </div>
+                  <div class="col-10 no-gutter right-info-section">
+                    <div class="add-subject">
+                      Add French
+                    </div>
+                    <span>1 cr.</span>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item list-group-item--isBlue">
+                <div class="row no-gutter">
+                  <div class="col-2 no-gutter left-icon-section">
+                    <span>+</span>
+                  </div>
+                  <div class="col-10 no-gutter right-info-section">
+                    <div class="add-subject">
+                      Add Elective
+                    </div>
+                    <span>16 credits remaining</span>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item">Available Slot</li>
+              <li class="list-group-item">Available Slot</li>
+            </ul>
+            <div class="card_footer text-center">
+              <a href="#" class="card-link">Ready To Submit</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card">
+            <div class="card_header">
+              <h3>YEAR 10</h3>
+              <small class="text-muted">0 credits earned</small>
+            </div>
+            <ul class="list-group ">
+              <li class="list-group-item">Available Slot</li>
+              <li class="list-group-item">Available Slot</li>
+              <li class="list-group-item">Available Slot</li>
+              <li class="list-group-item">Available Slot</li>
+              <li class="list-group-item">Available Slot</li>
+              <li class="list-group-item">Available Slot</li>
+              <li class="list-group-item">Available Slot</li>
+              <li class="list-group-item">Available Slot</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card">
+            <div class="card_header">
+              <h3>YEAR 11</h3>
+              <small class="text-muted">0 credits earned</small>
+            </div>
+            <ul class="list-group ">
+              <li class="list-group-item">Available Slot</li>
+              <li class="list-group-item">Available Slot</li>
+              <li class="list-group-item">Available Slot</li>
+              <li class="list-group-item">Available Slot</li>
+              <li class="list-group-item">Available Slot</li>
+              <li class="list-group-item">Available Slot</li>
+              <li class="list-group-item">Available Slot</li>
+              <li class="list-group-item">Available Slot</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card">
+            <div class="card_header">
+              <h3>YEAR 12</h3>
+              <small class="text-muted">0 credits earned</small>
+            </div>
+            <ul class="list-group ">
+              <li class="list-group-item">Available Slot</li>
+              <li class="list-group-item">Available Slot</li>
+              <li class="list-group-item">Available Slot</li>
+              <li class="list-group-item">Available Slot</li>
+              <li class="list-group-item">Available Slot</li>
+              <li class="list-group-item">Available Slot</li>
+              <li class="list-group-item">Available Slot</li>
+              <li class="list-group-item">Available Slot</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <!-- Bootstrap Optional JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

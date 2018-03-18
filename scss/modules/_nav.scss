@@ -1,0 +1,51 @@
+nav {
+  margin: .5em 0 1.5em 0;
+  background: $bg__secondary;
+  border: 1px solid $border__color;
+  border-radius: 5px;
+  color: $color__secondary;
+
+  .dropdown {
+    background: $color__white;
+    border-radius: 5px;
+    border: 1px solid $border__color;
+    margin: 0 1.5em 0 1em;
+
+    .dropdown-toggle {
+      color: $color__secondary;
+
+      &::after {
+        margin-left: 150px;
+      }
+    }
+
+    .dropdown-menu {
+      width: 100%;
+
+      a {
+        color: $color__secondary;
+        font-weight: 300;
+        font-size: .8em;
+
+        &:hover {
+          text-decoration: underline;
+          color: $color__blue;
+        }
+      }
+    }
+  }
+
+  .checkbox-section {
+    border-left: 1px solid $border__color;
+    padding: .6em 0 .6em 1.3em;
+    height: 100%;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .checkbox-section {
+    border: none!important;
+    padding-left: 0!important;
+  }
+}

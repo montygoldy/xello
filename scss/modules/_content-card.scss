@@ -1,0 +1,129 @@
+.card {
+  border: none;
+  background: none;
+  margin-bottom: 1em;
+
+  &_header {
+    padding: 1em 0;
+    background: none;
+    border: none;
+
+    h3 {
+      margin-bottom: 0;
+    }
+  }
+
+  .list-group-item {
+    padding: .75rem 1.25rem;
+    background: $color__white;
+    border: 1px dashed $border__color;
+    border-radius: 5px;
+    margin-bottom: 5px;
+
+    &--isGreen {
+      border: 1px solid $border__color;
+      border-left: 8px solid $color__green;
+      padding: 0.8em;
+      overflow: hidden;
+
+      .subject {
+        color: $color__secondary;
+        font-weight: 400;
+        font-size: 1.05em;
+      }
+
+      .badge {
+        width: 22px;
+        height: 22px;
+        line-height: 12px;
+        border: 1px solid #000;
+      }
+
+      .credentials {
+        font-size: .85em;
+
+        &__id {
+          color: $color__secondary;
+          font-weight: 400;
+          padding-right: .8em;
+          border-right: 1px solid $border__color;
+        }
+
+        &__name {
+          padding-left: .8em;
+        }
+      }
+    }
+
+    &--isBlue {
+      border: 1px solid $border__color;
+      padding: 0;
+      overflow: hidden;
+
+      .left-icon-section {
+        background: $color__blue;
+        color: $color__white;
+        text-align: center;
+
+        span {
+          font-size: 2.5em;
+        }
+      }
+
+      .right-info-section {
+        padding: .8em;
+
+        .add-subject {
+          color: $color__blue;
+          font-weight: 400;
+          font-size: 1em;
+          line-height: 1.1em;
+        }
+
+        span {
+          font-size: .85em;
+          color: $color__secondary;
+        }
+      }
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+// ----------------------------------------
+// !!CARD ACTIVE MODIFIER
+// ----------------------------------------
+.is-active {
+  border: 1px solid $border__color;
+  border-radius: 5px;
+  overflow: hidden;
+
+  .card_header {
+    background: $bg__secondary;
+    padding: 1em .9em .6em .7em;
+  }
+
+  .list-group {
+    padding: .7em;
+    background: $color__white;
+  }
+
+  .card_footer {
+    background: $color__blue;
+    padding: 2.8em 0;
+
+    a {
+      background: $button__primary;
+      color: $color__white;
+      padding: .8em 1em;
+      border-radius: 5px;
+      font-size: 1.2em;
+      font-weight: 300;
+      box-shadow: inset 0px 0px 2px $color__white;
+      border: 1px solid $button__primary;
+    }
+  }
+}
